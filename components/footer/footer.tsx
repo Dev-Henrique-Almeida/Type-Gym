@@ -1,14 +1,12 @@
-import styles from "./footer.module.scss"
-import React from 'react'
+import styles from "./footer.module.scss";
+import React from "react";
 
-const footer = () => {
-    return (
+const Footer = () => {
+  return (
+    <div>
+      <h2>Footer</h2>
+    </div>
+  );
+};
 
-        <div>
-            <h2>Footer
-            </h2>
-        </div>
-    )
-}
-
-export default footer
+export default Footer;
