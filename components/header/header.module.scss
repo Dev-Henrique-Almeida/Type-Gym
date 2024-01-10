@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: #630f0f;
+    padding: 25px 0; 
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .nav_menu {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  .nav_menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav_menu li a {
+    text-decoration: none; 
+    color: #cecece;
+    font-weight: bold; 
+  }
+  
+  .nav_menu li a:hover {
+    color: #515151;
+  }
+  
