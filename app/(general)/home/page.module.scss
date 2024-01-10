@@ -1,0 +1,22 @@
+.container {
+  background-color: rgb(
+    58,
+    59,
+    59
+  ); /* Definido como comentário no seu código, mas é necessário para o fundo */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+
+  font-size: 204px;
+  mask-image: url("../../../public/assets/Pessoas.svg");
+  -webkit-mask-size: 30%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url("../../../public/assets/Pessoas.svg");
+  background-clip: text;
+  color: white; /* Mudado de white para transparent para mostrar o texto */
+  background: red; /* Isso preencherá o texto com a cor de fundo */
+}
